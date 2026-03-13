@@ -110,3 +110,12 @@ console.log(typeof newPrice);
 newPrice = "100";
 console.log(newPrice);
 console.log(typeof newPrice);
+
+let num = Number("123");
+let str = String(123);
+let bool = Boolean(1);
+
+console.log("5" + 3);
+console.log("5" - 3);
+console.log("10" * 2);
+console.log("5" + 3 + 2);
