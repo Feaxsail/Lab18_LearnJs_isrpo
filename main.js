@@ -120,24 +120,23 @@ console.log("5" - 3);
 console.log("10" * 2);
 console.log("5" + 3 + 2);
 
-console.log(5 == "5")
-console.log(5 === "5")
-console.log(5 == false)
-console.log(5 === false)
-console.log(null == undefined)
-console.log(null === undefined)
+console.log(5 == "5");
+console.log(5 === "5");
 
-let obj1 = { name: "John" };
-let obj2 = { name: "John" };
-console.log(obj1 == obj2); 
-console. log(obj1 === obj2); 
+let obj1 = {};
+let obj2 = {};
+console.log(obj1 == obj2);
+console.log(obj1 === obj2);
 
-let obj3 = obj1;
-console.log(obj1 === obj3);
-
-let arr1 = [1,2,3];
-let arr2 = [1,2,3];
+let arr1 = [1, 2, 3];
+let arr2 = [1, 2, 3];
+console.log(arr1 == arr2);
 console.log(arr1 === arr2);
+
+console.warn("Это предупреждение");
+console.error("Это ошибка");
+console.info("Это информация");
+console.table([{name: "Alice", age: 25}, {name: "Bob", age: 30}]);
 
 let x1 = 10;
 let y1 = 2;
@@ -152,3 +151,8 @@ console.log(x1 + y1);
 console.log(x1 - y1);
 console.log(x1 * y1);
 console.log(x1 / y1);
+
+let a2 = 5;
+let b2 = 10;
+console.log(a2 + b2);
+console.log(a2 * b2);
